@@ -1,15 +1,3 @@
-variable "sshkeypair" {
-  default     = "id_rsa"
-  type        = string
-  description = "Name of SSH keypar used for systems."
-}
-
-variable "ec2_type" {
-  default     = "t2.nano"
-  type        = string
-  description = "EC2 Type that should be used for the web servers."
-}
-
 variable "region" {
   default     = "us-east-1"
   type        = string
